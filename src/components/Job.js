@@ -17,19 +17,23 @@ function Job({job}) {
                         <Image
                             className="img-fluid"
                             src={myConfig.Base_URL+job.image}
-                            fallback={<Shimmer />}
+                            fallback={<Shimmer height={170} />}
                         />
                     </div>
                     <div className="custom-cart-footer p-1">
-                        <div className="mt-1">
-                            <span>{job.title}</span>
-                            <span style={{float: 'left'}}>{job.domain}</span>
+                        <div className="mt-1 text-xmedium">
+                            {job.title}
                         </div>
 
-                        <div className="text-left">
-                                                <span className="text-small">
-                                                    {job.description}
-                                                </span>
+                        <div className=" text-small">
+                            {job.domain}
+                        </div>
+                    
+
+                        <div className="mt-1 text-left text-medium text-secondary">
+                    
+                            {job.description}
+                     
                         </div>
                     </div>
 

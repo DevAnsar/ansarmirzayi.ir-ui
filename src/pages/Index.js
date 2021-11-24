@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {Col, Container, Row, Spinner} from 'react-bootstrap';
 import Footer from './../components/Footer';
 import Jobs from './../components/Jobs';
@@ -121,7 +121,7 @@ class Index extends React.Component{
                                     <Col className='center-line'>
                                            
     
-                                            <a href="https://www.npmjs.com/~ansaramman" class="logo" target="_blank"  title='npm packages'>
+                                            <a href="https://www.npmjs.com/~ansaramman" className="logo" target="_blank"  title='npm packages'>
                                                 <svg height="23" width="23" viewBox="0 0 700 700" fill="currentColor"  >
                                                 <polygon fill="#cb0000" points="0,700 700,700 700,0 0,0"></polygon>
                                                 <polygon fill="#ffffff" points="150,550 350,550 350,250 450,250 450,550 550,550 550,150 150,150 "></polygon>

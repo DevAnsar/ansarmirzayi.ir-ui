@@ -1,5 +1,10 @@
 @import url('./fonts.css');
-
+a:hover{
+    text-decoration: none !important;
+}
+a:link {
+    text-decoration: none !important;
+}
 #template {
     background-color: black;
     min-height: 100vh;
@@ -87,7 +92,7 @@ ul.footer-list li {
 
 .custom-cart-footer{
     width: 100% !important;
-    min-height: 85px;
+    height: 110px;
 }
 .custom-cart-image{
     width: 100% !important;
