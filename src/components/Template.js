@@ -9,14 +9,14 @@ function Template({ children }) {
 
         <Helmet>
             <meta charSet="utf-8" />
-            <title>انصارم من - ansaramman</title>
+            <title>انصار میرزایی</title>
             <meta name="description" content="انصار میرزایی" />
             <meta name="description" content="انصار میرزائی" />
             <meta name="description" content="انصار" />
             <meta name="description" content="ansar mirzayi" />
             <meta name="description" content="ansar" />
             <meta name="description" content="برنامه نویسی ، برنامه نویسی در ارومیه ، طراحی سایت ، طراحی سایت در ارومیه ، ارومیه ، سایت ، وب سایت" />
-            <link rel="canonical" href="http://ansaramman.ir" />
+            <link rel="canonical" href="http://ansarmirzayi.ir" />
         </Helmet>
 
       {children}
