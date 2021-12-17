@@ -1,19 +1,15 @@
 import Index from "./pages/Index"
-// import AboutMe from "./pages/AboutMe"
-// import Resume from "./pages/Resume"
-// import ResumeSingle from "./pages/ResumeSingle"
 import NotFound from "./pages/NotFound"
-// import Profile from "./pages/Profile"
 
 const routes = [
   {
-    exact: true,
     path: "/",
-    component: Index,
+    element: Index,
     private:false,
   },
   {
-    component: NotFound,
+    path: "*",
+    element: NotFound,
     private:false,
   },
 ]

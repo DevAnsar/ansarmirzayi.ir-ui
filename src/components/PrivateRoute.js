@@ -1,10 +1,11 @@
 import React from "react"
-import { Redirect, Route } from "react-router-dom"
+import { Route } from "react-router-dom"
 import useAuth from "./../hooks/useAuth"
 
 function PrivateRoute(props) {
-  const loggedIn = useAuth()
-  return loggedIn ? <Route {...props} /> : <Redirect to="/login" />
+  const loggedIn = useAuth();
+  // const navigation=useNavigate();
+  return loggedIn ? <Route {...props} /> : <Route {...props} />
 }
 
 export default PrivateRoute
