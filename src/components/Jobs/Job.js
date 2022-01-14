@@ -5,7 +5,7 @@ import { myConfig } from "../../config.js";
 function Job({ job }) {
   return (
     <>
-      <Col sm={4}>
+      <Col xs={6} sm={4} md={4} xl={3} >
         <a
           className="custom-cart"
           target="_blank"

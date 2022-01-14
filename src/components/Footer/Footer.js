@@ -5,8 +5,8 @@ export default function Footer() {
     <Col xs={12} className="B mt-1">
       <Row>
         <Col xs={12} className="3">
-          <div className="footer border-top mt-3">
-            <ul className={`footer-list mt-3 mb-2`}>
+          <div className="footer border-top">
+            <ul className={`footer-list pt-3 mb-2`}>
               <li className=" mr-4">
                 <a
                   href="tel:09306029572"

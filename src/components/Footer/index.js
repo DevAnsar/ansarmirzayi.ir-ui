@@ -1,2 +1,4 @@
 import Footer from './Footer';
-export {Footer};
+import Projects from './Projects'
+export {Projects};
+export default Footer;
