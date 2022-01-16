@@ -11,19 +11,9 @@ export default function Footer() {
 
               <li className=" mr-4">
                 <Link to="/am-card-memory-game">
-                  <span className="d-none d-md-block pl-2">
+                  <span className="name-label pl-2">
                     1.
                     بازی کارت حافظه
-                  </span>
-                </Link>
-              </li>
-
-              
-              <li className=" mr-4">
-                <Link to="/am-card-memory-game">
-                  <span className="d-none d-md-block pl-2">
-                    2.
-                    تبدیل واحد
                   </span>
                 </Link>
               </li>

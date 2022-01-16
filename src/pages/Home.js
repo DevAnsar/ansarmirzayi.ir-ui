@@ -237,7 +237,7 @@ class Index extends React.Component {
             <Row>
               <Col xs={12} className="1prim mt-md-5 mt-0">
                 <Row>
-                  <Col className="mt-3 mb-1">نمونه پروژه ها</Col>
+                  <Col className="mt-3 mb-1 name-label">نمونه پروژه ها</Col>
                 </Row>
                 <Row
                   id="jox-box"
