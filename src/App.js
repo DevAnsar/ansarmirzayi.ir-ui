@@ -1,33 +1,31 @@
 import React from "react";
-import {
-  Routes,
-  Route
-} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Template from "./components/Template";
-import AuthProvider from "./providers/AuthProvider";
-// import PrivateRoute from "./components/PrivateRoute";
 import "bootstrap-v4-rtl/dist/css/bootstrap-rtl.min.css";
 
 //Routes
-import {Home , NotFound} from "./pages";
+import { HomePage, NotFindPage } from "./pages";
 
 //Packages
-import MemoryGame from './lib/memory-game'
+import MemoryGame from "./lib/memory-game";
+
+//Providers
+import ContentsStoreProvider from "./providers/ContentsStoreProvider";
+import JobsStoreProvider from "./providers/JobsStoreProvider";
 
 function App() {
   return (
-
-
-      <AuthProvider>
-        <Template>
+    <Template>
+      <ContentsStoreProvider>
+        <JobsStoreProvider>
           <Routes>
-            <Route path="/" element={<Home/>} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/am-card-memory-game" element={<MemoryGame />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<NotFindPage />} />
           </Routes>
-         </Template>
-      </AuthProvider>
-
+        </JobsStoreProvider>
+      </ContentsStoreProvider>
+    </Template>
   );
 }
 

@@ -1,3 +1,3 @@
-import Home from './Home';
-import NotFound from './NotFound';
-export {Home,NotFound};
+import HomePage from './HomePage';
+import NotFindPage from './NotFindPage';
+export {HomePage,NotFindPage};

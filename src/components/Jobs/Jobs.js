@@ -4,7 +4,7 @@ function Jobs({jobs}) {
     return (
         <>
             {
-                jobs.map((job, index) => <Job key={index} job={job}/>)
+                jobs?.map((job, index) => <Job key={index} job={job}/>)
             }
         </>
     )
